@@ -36,7 +36,7 @@ header, main, footer {
     width: 50%;
 }
 
-#contacts {
+#profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -44,11 +44,11 @@ header, main, footer {
     border-bottom: 10px solid rgb(116, 58, 15);
 }
 
-.contacts-info {
+.profile-info {
     padding-top: 30px;
   }
 
-.contacts-logo {
+.profile-logo {
     border-radius: 50%;
 }
 
@@ -58,6 +58,7 @@ header, main, footer {
     text-transform: uppercase;
     letter-spacing: 5px;
     color:  rgb(116, 58, 15);
+    text-align: center;
   }
 
 @media (max-width: 768px) {

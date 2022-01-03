@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>CV</title>
   </head>
@@ -47,23 +47,138 @@
     <main class="main">
       <div class="container main-container">
         <section class="section" id="profile">
-          <img class="profile-logo" src="./img/my_photo.png" alt="user_photo">
+          <img class="profile-logo" src="./img/my_photo.png" alt="user_photo" />
           <div class="profile-info">
-            <h1 class="section-title"> Ihor Sirko</h1>
-            <hr>
-            <h2 class="section-title"> Junior Front-End Developer</h2>
-          </div>  
+            <h1 class="section-title profile-title">Ihor Sirko</h1>
+            <hr />
+            <h2 class="section-title">Junior Web Developer</h2>
+          </div>
         </section>
-        <section class="section" id="summary"></section>
-        <section class="section" id="skills"></section>
-        <section class="section" id="code"></section>
-        <section class="section" id="projects"></section>
-        <section class="section" id="education"></section>
-        <section class="section" id="english"></section>
+        <section class="section" id="contacts">
+          <h2 class="contacts-title section-title">contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-list-item"><strong>Mob</strong>: +38-063-7098-402</li>
+            <li class="contacts-list-item">
+              E-mail:
+              <a href="mailto:sirkewich92@gmail.com" class="link"
+                >sirkewich92@gmail.com</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              Skype: live:.cid.ad3ef2d91665ccd8
+            </li>
+            <li class="contacts-list-item">Location: Odessa, Ukraine</li>
+            <li class="contacts-list-item">
+              LN:
+              <a href="https://www.linkedin.com/in/ihor-sirko link" class="link"
+                >https://www.linkedin.com/in/ihor-sirko</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              Github:
+              <a href="https://github.com/Sirkevich" class="link"
+                >https://github.com/Sirkevich</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="summary-title section-title">
+            Briefly About Myself:
+          </h2>
+          <p class="summary-text">
+            I like learning something interesting and new, growing and working
+            in greate team. WEB development has many advantages such as great
+            and helpful community, you never stop learning and growing, a lot of
+            resources available if you ever get stuck at something. I worked
+            with some web-technologies and also have experience of head of the
+            Center for Information Systems with a demonstrated history of
+            working in the military industry. I believe that it will help me and
+            i will be a good frontend developer very soon)
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="skills-title section-title">
+              Skills
+          </h2>
+          <ul class="skills-list">
+              <li class="skills-list-item">HTML/CSS</li>
+              <li class="skills-list-item">Basic concepts of JavaScript</li>
+              <li class="skills-list-item">Bootstrap, jQuery</li>
+              <li class="skills-list-item">JSON, MD, XML</li>
+              <li class="skills-list-item">Git, GitHub, Figma</li>
+              <li class="skills-list-item">System administrating</li>
+              <li class="skills-list-item">Semantics and accessibility</li>
+              <li class="skills-list-item">Cybersecurity operations and programs</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="code-title section-title">
+                Code Example
+            </h2>
+            <p class="code-subtitle">
+                <strong>List Filtering</strong> - function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out:
+            </p>
+            <pre>
+                <code class="code-example">
+                    function filter_list(l) {
+  
+                        const userData = []; 
+                        for (let i of l) {
+                          if (i === Number(i)) {
+                            userData.push(i);
+                          }
+                        }
+                        return userData;
+                      }
+                </code>
+            </pre>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="courses-title section-title">
+                Courses
+            </h2>
+            <ul class="courses-list">
+                <li class="courses-list-item">Frontend Basic at Hillel school (completed)</li>
+                <li class="courses-list-item">Cyberdefenders training program at CRDF Global (in progress)</li>
+                <li class="courses-list-item">Cyber Heroes reintegration program at Veteranius (in progress)</li>
+                <li class="courses-list-item">RS Schools Course «JavaScript/Front-end (in progress)</li>
+            </ul>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="languages-title section-title">
+                Languages
+            </h2>
+            <ul class="languages-list">
+                <li class="languages-list-item">English - professional working proficiency</li>
+                <li class="languages-list-item">Ukrainian - native</li>
+                <li class="languages-list-item">Russian - full professional proficiency</li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2 class="education-title section-title">
+                Education
+            </h2>
+            <p>
+                National Technical University of Ukraine 'Kyiv Polytechnic Institute' 
+            </p>
+        </section>
+        <section class="section" id="interests">
+            <h2 class="interests-title section-title">
+                Interests
+            </h2>
+            <ul class="interests-list">
+                <li class="interests-list-item">Reading</li>
+                <li class="interests-list-item">Traveling</li>
+                <li class="interests-list-item">Football</li>
+            </ul>
+        </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+          
+      </div>
     </footer>
   </body>
 </html>

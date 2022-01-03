@@ -58,8 +58,12 @@ header, main, footer {
     text-transform: uppercase;
     letter-spacing: 5px;
     color:  rgb(116, 58, 15);
-    text-align: center;
+    margin-top: 30px;
   }
+
+.profile-title {
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .section {
@@ -74,7 +78,13 @@ header, main, footer {
     list-style: none;
     margin-bottom: 20px;
     margin-top: 20px;
-}  
+} 
+
+.link {
+    padding: 5px;
+    text-decoration: none;
+    color:  rgb(156, 153, 151);
+}
 
 .nav-link {
     padding: 0 20px;

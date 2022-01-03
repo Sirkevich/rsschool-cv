@@ -15,16 +15,13 @@ body {
     margin: 0;
 }
 
-header, main, footer {
-    border: 2px solid greenyellow;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
   }
 .header {
     background-color: rgb(116, 58, 15);
+    padding: 20px;
 }
 
 .main-container {
@@ -34,6 +31,7 @@ header, main, footer {
   
 .section {
     width: 50%;
+    padding-bottom: 30px;
 }
 
 #profile {
@@ -76,12 +74,11 @@ header, main, footer {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    /* margin-bottom: 20px; */
 } 
 
 .link {
-    padding: 5px;
+    /* padding: 5px; */
     text-decoration: none;
     color:  rgb(156, 153, 151);
 }
@@ -96,4 +93,18 @@ header, main, footer {
 
 .nav-link:hover {
     color:gold  
+}
+
+.footer {
+    background-color:rgb(116, 58, 15);
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-author {
+    color: honeydew;
+    padding-top: 30px;
 }
